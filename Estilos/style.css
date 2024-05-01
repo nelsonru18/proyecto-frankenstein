@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-repeat: no-repeat;
+	  background-size: cover;
+	  background-color: #242a49;
+	  background-image: url(../Imagenes/manos_carbon.jpg);
+	  height: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;	
+	  padding: 40px;
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #010f1d;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 10px;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a.link:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  #enviar, #borrar{
+    background: #1f53c5;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    text-decoration:none;
+    text-align: center;
+  }
+  #enviar, #borrar:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }

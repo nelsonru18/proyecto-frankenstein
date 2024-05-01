@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #242a49;
+	background-image: url(../Imagenes/manos_carbon.jpg);
+	height: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;	
+	padding: 40px;
+}
+.titulo{
+	color: rgb(4, 41, 41);
+	min-width: 350px;
+}
+
+h4{
+    color: rgb(5, 49, 49);
+	font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+div{
+	padding: 10px;
+}
+
+header{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.288);
+}
+
+.navegacion{
+	background: none;
+	padding: 10px;
+}
+
+ul{
+	list-style: none;
+}
+
+/*ESTE ES EL PERFIL*/
+.perfil-principal{
+	margin-right: 20px;
+	padding: 10px;
+}
+.perfil > ul{
+	width: 20%;
+}
+.perfil > li{
+	position: relative;
+	display: inline-block;
+    border-radius: 10px;
+	margin-right: 20px;
+}
+
+.perfil > li > a{
+	display: block;
+	color: rgb(5, 49, 49);
+	font-weight: 800;
+	font-family: 'Lato', sans-serif;
+    font-size: 18px;
+	text-decoration: none;
+}
+
+
+.perfil li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Subperfil*/
+	.subperfil{
+		position: absolute;
+		background: #275f5f94;
+		width: 180%;
+		visibility: hidden;
+		border-radius: 5px;
+		opacity: 0;
+		transition: opacity 1.5s;
+	}
+
+	.subperfil li a{
+		display: block;
+		padding: 15px;
+		color: rgb(0, 0, 0);
+		font-family: 'Lato', sans-serif;
+		text-decoration: none;
+	}
+
+	.perfil li:hover .subperfil{
+		visibility: visible;
+		opacity: 1;
+	}
+/* CIERRE LISTA DE PERFIL*/
+
+/*ESTE ES EL MENÚ*/
+.menu > li{
+	display: flex;
+	position: relative;
+	display: inline-block;
+    background: rgb(14, 14, 41);
+	margin: 10px 20px;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #e9dbdb;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+    /* APERTURA LISTA DEL MENÚ*/
+	.submenu{
+		position: absolute;
+		background: #161630;
+		border-radius: 5px;
+		width: 120%;
+		visibility: hidden;
+		opacity: 0;
+		transition: opacity 1.5s;
+	}
+
+
+	.submenu li a{
+		display: block;
+		padding: 10px;
+		color: #fff;
+		font-family: 'Lato', sans-serif;
+		text-decoration: none;
+		font-size: small;
+	}
+
+	.menu li:hover .submenu{
+		visibility: visible;
+		opacity: 1;
+	}
+    /*CIERRE LISTA DEL MENÚ*/
+
+@media (max-width:700px){
+	header{
+		min-width: 350px;
+		display: flex;
+		flex-direction: column;
+		align-items:flex-end;
+		justify-content: none;
+	}
+	.menu > li{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		display: inline-block;
+		margin-bottom: 80px;
+	}
+}

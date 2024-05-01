@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-repeat: no-repeat;
+	  background-size: cover;
+	  background-color: #242a49;
+	  background-image: url(../Imagenes/manos_carbon.jpg);
+	  height: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;	
+	  padding: 10px;
+  }
+  
+  
+  th{
+    width: auto;
+    padding: 10px;
+    background-color: #1e376e;
+    font-size: 20px;
+    border-radius: 3px;
+    color: rgb(8, 8, 8);
+  }
+  .tabla2{
+    width: 100%;
+    background-color: rgb(108, 122, 184);
+    font-size: 20px;
+    text-align:center;
+    border: none;
+  }
+  td{
+    width: auto;
+    background-color: rgb(108, 122, 184);
+    font-size: 20px;
+  }
+
+  div{ margin-bottom: 20px;}
+
+
+  .buscador{
+    width: 100%;
+    margin: auto;
+    text-align:center;
+    padding: 10px;
+
+  }
+
+  .busqueda {
+    width: 70%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+
+  .botones{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .form-register {
+    width: 600px;
+    background: #010f1d;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  
+  .form-tablas {
+    background-color: #a6b0c5;
+    width: 1000;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000;
+  }
+  table{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+  .form-register h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #6286d3;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+
+  #registrar,#editar, #Todos, #menu, #imprimir, #atras:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+   #registrar,#editar, #Todos, #menu, #imprimir, #atras {
+    background: #1f53c5;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-inline: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration:none;
+    text-align: center;
+    font-family: 'calibri';
+  }
+  .registrar:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+   .registrar {
+    background: #1f53c5;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-inline: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration:none;
+    text-align: center;
+    font-family: 'calibri';
+  }
+  #editar{
+    background: #10b40a;
+  }
+  .titulotabla{
+    width: 100%;
+    background: #1e376e;
+    margin: auto;
+    text-align:center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    color: rgb(8, 8, 8);
+  }
+  .accion{
+    width: 200px;
+  }
